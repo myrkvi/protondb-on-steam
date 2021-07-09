@@ -1,0 +1,54 @@
+.proton {
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 4px;
+    color: black;
+
+    text-shadow: 0px 0px 2px white;
+    /*vertical-align: text-top;*/
+    /*line-height: 10px;*/
+
+    height: 15pt;
+    margin-top: -5pt;
+    padding-right: 5px;
+    
+}
+.proton::before {
+    content: url("https://www.protondb.com/sites/protondb/images/site-logo.svg");
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+
+.proton > a {
+    display: inline-block;
+    position: relative;
+    margin-top: -4pt;
+    padding-bottom: 2pt;
+    vertical-align: text-top;
+
+    text-decoration: none;
+    color: black;
+}
+
+.borked {
+    background-color: red; 
+}
+
+.bronze {
+    background-color: rgb(205, 127, 50);
+}
+
+.silver {
+    background-color: rgb(192, 192, 192);
+}
+
+.gold {
+    background-color: rgb(207, 181, 59);
+}
+
+.platinum {
+    background-color: rgb(180, 199, 220);
+}
